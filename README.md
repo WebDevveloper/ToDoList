@@ -20,16 +20,16 @@
 - Сохранение списка между перезагрузками (localStorage)
 
 ## Архитектура (коротко)
-src/
-components/
-ToDoInput.jsx # инпут + кнопка Add
-ToDoList.jsx # список задач
-ToDoCard.jsx # элемент + действия (edit/delete)
-App.jsx
-index.css
-main.jsx
-index.html # lang="en", Google Fonts + Font Awesome
-vite.config.js
+- src/
+- components/
+ - ToDoInput.jsx # инпут + кнопка Add
+ - ToDoList.jsx # список задач
+ - ToDoCard.jsx # элемент + действия (edit/delete)
+- App.jsx
+- index.css
+- main.jsx
+- index.html # lang="en", Google Fonts + Font Awesome
+- vite.config.js
 
 ## Метрики (цели для мобильных)
 - Lighthouse: **90–100**
