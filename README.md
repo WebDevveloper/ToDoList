@@ -41,13 +41,6 @@ vite.config.js
 - Клавиатурная навигация и видимые фокусы
 - Понятные иконки действий; рекомендуется добавить ARIA-метки для инпута/кнопок
 
-## Запуск
-```bash
-npm i
-npm run dev        # http://localhost:5173
-npm run build
-npm run preview
-
 ## Roadmap
 - RU/EN i18n (placeholder/кнопки)
 - Пустые и ошибочные состояния
@@ -59,3 +52,10 @@ npm run preview
 
 ## Цель проекта
 Показать понимание React/Vite и базовой фронтенд-архитектуры на простом ToDo как «разминочном» мини-проекте перед более сложными приложениями.
+
+## Запуск
+```bash
+npm i
+npm run dev        # http://localhost:5173
+npm run build
+npm run preview
