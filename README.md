@@ -1,12 +1,26 @@
-# React + Vite
+# ToDoList — минимальный CRUD (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TL;DR (30 сек):** быстрый список задач с локальным хранением и акцентом на качество интерфейса: доступность (A11y), чистая архитектура компонентов, предсказуемое состояние и измеримые метрики производительности.
 
-Currently, two official plugins are available:
+## Демо / скриншоты
+- Деплой: https://webdevveloper-todolist.netlify.app/ (Netlify)
+- Скриншоты: `/docs/screenshots/` (включая Lighthouse mobile)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Стек
+- **Frontend:** React, Vite, JSX, HTML5/CSS3
+- **Состояние:** локальный state (простой), lift state up, контролируемые формы
+- **Хранение:** `localStorage`, состояния `UseState`
+- **Качество:** ESLint, Prettier
 
-# Description
-It's a simple To-Do List
-You can add, change or delete your task, but unfortunately this app without DB so... only frontend end localStorage
+## Фичи
+- Добавление, редактирование, удаление
+- Фильтры: *all / active / completed* (в будущем)
+- Сохранение в `localStorage` с миграциями версии (в будущем)
+- Пустые/ошибочные состояния, клавиатурная навигация, фокус-стейты (в будущем)
+
+## Архитектура (коротко)
+
+
+## Цель проекта
+- Продемонстрировать пониамние React, Vite, JSX
+- Простой фронтенд список задач как отправная точка к другим проектам
