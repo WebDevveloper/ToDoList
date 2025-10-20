@@ -7,11 +7,11 @@ export default function ToDoInput(props){
         <header>
            <input value={ToDoValue} onChange={(e) => {
                 setToDoValue(e.target.value);
-           }} type="text" placeholder="Something..." />
+           }} type="text" placeholder="Добавить задачу" />
            <button onClick={() => {
             handleAddTodos(ToDoValue)
             setToDoValue('')
-           }}>Add</button>
+           }}>Добавить</button>
         </header>
     )
 }
