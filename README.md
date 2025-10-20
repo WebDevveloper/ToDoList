@@ -21,10 +21,12 @@
 
 ## Архитектура (коротко)
 - src/
+
 - components/
 - ToDoInput.jsx # инпут + кнопка Add
 - ToDoList.jsx # список задач
 - ToDoCard.jsx # элемент + действия (edit/delete)
+
 - App.jsx
 - index.css
 - main.jsx
