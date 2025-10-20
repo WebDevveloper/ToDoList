@@ -21,7 +21,6 @@
 
 ## Архитектура (коротко)
 - src/
-
 - components/
 - ToDoInput.jsx # инпут + кнопка Add
 - ToDoList.jsx # список задач
